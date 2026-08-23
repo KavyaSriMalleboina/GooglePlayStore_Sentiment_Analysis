@@ -1,3 +1,11 @@
+fastapi
+uvicorn
+pydantic
+joblib
+scikit-learn
+transformers
+torch
+
 numpy
 pandas
 matplotlib

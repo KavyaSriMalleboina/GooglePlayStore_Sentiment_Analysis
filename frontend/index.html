@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: flex; align-items: center; flex-direction: column;">
+    <h1>SENTIMENT ANALYSIS</h1>
+    <p>Enter your review of any app. The models predict it's sentiment</p>
+    <div class="input_bar">
+        <input id="review_input" type="text" placeholder="Enter your review here...">
+        <button id="predict_button">Predict</button>
+    </div>
+
+    <div class="container">
+        <div class="model">
+            <div class="heading">TD-IDF + Naive Bayes</div>
+            <div class="prediction model1"></div>
+        </div>
+        <div class="model">
+            <div class="heading">TD-IDF + Logistic Regression</div>
+            <div class="prediction model2"></div>
+        </div>
+        <div class="model">
+            <div class="heading">BERT</div>
+            <div class="prediction model3"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
